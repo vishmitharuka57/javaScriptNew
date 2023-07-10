@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_Basics/01_Basics.iml" filepath="$PROJECT_DIR$/01_Basics/01_Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-DOM_Manipulation/02-DOM_Manipulation.iml" filepath="$PROJECT_DIR$/02-DOM_Manipulation/02-DOM_Manipulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_DOM_Manipulation_JQuery/03_DOM_Manipulation_JQuery.iml" filepath="$PROJECT_DIR$/03_DOM_Manipulation_JQuery/03_DOM_Manipulation_JQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_Js_SPA/04_Js_SPA.iml" filepath="$PROJECT_DIR$/04_Js_SPA/04_Js_SPA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_POS/05_POS.iml" filepath="$PROJECT_DIR$/05_POS/05_POS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javascript-new.iml" filepath="$PROJECT_DIR$/javascript-new.iml" />
+    </modules>
+  </component>
+</project>

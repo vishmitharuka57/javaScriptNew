@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM_Manipulation</title>
+</head>
+<body>
+<h1>Institute of Software Engineering</h1>
+<h1 id="head1">Institute of Software Engineering 1</h1>
+<h1 class="head2">Institute of Software Engineering 2</h1>
+<h1>Institute of Software Engineering 3</h1>
+<h1 id="head4">Institute of Software Engineering 4</h1>
+<h1>Institute of Software Engineering 5</h1>
+<h1>Institute of Software Engineering 6</h1>
+<h1 id="head7">Institute of Software Engineering 7</h1>
+<h2>GDSE</h2>
+<h3>PANADURA and GALLE</h3>
+<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+    dignissimos laboriosam, modi neque numquam officiis porro quaerat
+    sapiente velit.
+    Assumenda eius est exercitationem iste libero, sapiente vitae.
+    Eius, illum, nihil!</P>
+<hr>
+<input type="text" placeholder="INPUT SOMETHING" id="txtInput">
+<button id="btn">test</button>
+<hr>
+<br>
+
+<input type="text" placeholder="INPUT SOMETHING" id="txtContent">
+<button id="btnUp">UP</button>
+<button id="btnDown">DOWN</button>
+<button id="btnSet">SET</button>
+
+
+<img src="assets/images/VT.png" alt="" width="300px" id="img">
+
+<ul id="list">
+    <li>java</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Python</li>
+</ul>
+
+<script src="assets/jquery/jquery-3.6.4.min.js"></script>
+<script>
+ /*   $("h1").text("Before change symbol");
+    // var VR =jQuery.noConflict();
+    $("h1").text("Before change symbol");
+    // VR("h1").text("After change symbol");
+   ====id selectoor===
+   // $("#head1").text("IJSE1");
+   ====class selectoor=======id selectoor===
+   //  $(".head2").text("IJSE2");
+   ====universal selectoor===
+   // $("*").text("red");
+   ====attribute selectoor===
+    //  $("[id]").text("sttribute selector");
+   ====pseudo class selectoor===*/
+  //  $("img").remove();
+     // $("li:nth-child(2)").css('color','pink');
+     /* $("#btn").click(function () {
+           /!* alert("You clicked button")*!/
+           /!* $("#head1").css('color','green');*!/
+            $("#btn").click(function () {
+                $("#head1").text($("#txtInput").val());
+            });
+        });
+*/
+
+     /*$("#btnUp").click(function () {
+       $("#list").prepend("<li>"+ $('#txtContent').val()+"</li>") ;
+   });
+
+   $("#btnDown").click(function () {
+       $("#list").append("<li>"+ $('#txtContent').val()+"</li>") ;
+   });*/
+
+    $("#btnSet").click(function () {
+        $("#img").attr("src",$('#txtContent').val());
+    });
+
+</script>
+</body>
+</html>
