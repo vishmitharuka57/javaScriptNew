@@ -55,6 +55,7 @@ $("#btnSave").click(function () {
 
     $("#customerTable").append(row);
 
+    //bind the event after the row was added
     $("#customerTable>tr").click(function () {
         console.log(this);
     });
